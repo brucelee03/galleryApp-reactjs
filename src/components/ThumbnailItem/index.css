@@ -1,0 +1,24 @@
+.button {
+  border-width: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+@media (max-width: 576px) {
+  .thumbnail {
+    width: 50px;
+    opacity: 0.5;
+  }
+  .active-image {
+    opacity: 1;
+  }
+}
+@media (min-width: 767px) {
+  .thumbnail {
+    width: 86px;
+    opacity: 0.5;
+  }
+  .active-image {
+    opacity: 1;
+  }
+}
